@@ -17,7 +17,7 @@ body{
     .nav_content {
         width: 100%;
         list-style: none;
-        margin: 28px;
+        padding: 0px 28px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -54,7 +54,11 @@ body{
     height: 38px;
     background-color: #DEEAF4;
     border-color: #DEEAF4;
-    appearance: none;
+    appearance: none;    
+    background: url("../assets/img/search_icon.svg") no-repeat scroll;
+    background-position: center right;
+    padding-left:30px;
+    background-origin: content-box, padding-box;
 }
 #search-input[type=text] {
     font-family: "Kodchasan";
@@ -109,4 +113,67 @@ body{
         width: 21px;
         height: 19px;
         padding: 3px 5px; 
+    }
+
+#section-guias {
+    background: #EFFBFB;
+    width: 1440px;
+    height: 489px;
+}
+#section-guias a:hover {
+    color: #F64975
+}
+#guias-lst {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 33px;
+}
+    #guias-lst a {
+        text-decoration: none;
+        color:inherit;
+    }
+    #guias-lst li {
+        width: 321px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+        #guias-lst img {
+            align-self: center;
+            width: 100%;
+            height: auto;
+        }
+        #guias-lst h2 {
+            padding-top: 9px;
+            font-size: 20px;
+        }
+        #guias-lst li p {
+            font-family: Hind Madurai;
+            padding-top: 12px;
+            font-size: 16px;
+            width: 100%;
+            color: #686565;
+        }
+#guias-header {
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 29px;
+}
+    #guias-header ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #guias-header li {
+        font-size: 24px;
+        padding: 0 33px;
+    }
+    #guias-header a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
     }
