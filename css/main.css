@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.proyectos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    font-family: "Kodchasan";
+    color: #002845;
+    font-size: small;
+    background-color: #DEEAF4;
+    width: 100%;
+    height: 450px;
+}
+.artistas{
+    display:flex;
+    align-items: flex-start;
+    font-family: "Kodchasan";
+    color: #002845;
+    font-size: small;
+    background-color: #F6497514;
+    width: 100%;
+    height: 450px;
+}
