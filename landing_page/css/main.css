@@ -463,3 +463,11 @@ footer {
     background: #DEEAF4;
  }
 /*end slider*/
+/*Artistas estreno*/
+.artistas{ 
+    width: 1440px;
+height: 450px;
+background: #FFF1F4;
+margin-bottom: 0;
+}
+/*Fin artistas estreno*/
